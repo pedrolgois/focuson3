@@ -1,0 +1,151 @@
+:root {
+  --max-width: 1200px;
+  --orange: #e5421f;
+  --dark-orange:#e5421f;
+  --dark-brown: #271819;
+  --light-gray: #F1F3F6;
+  --dark-gray: #555555;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+.css-vnkopk-MuiStepLabel-iconContainer.MuiStepLabel-alternativeLabel{
+  box-shadow: 10px 5px 10px #0000004b;
+}
+
+.css-n7tliy-MuiStep-root:first-child .css-vnkopk-MuiStepLabel-iconContainer.MuiStepLabel-alternativeLabel{
+  border-radius: 15px 0 0 15px;
+}
+
+.css-n7tliy-MuiStep-root:last-child .css-vnkopk-MuiStepLabel-iconContainer.MuiStepLabel-alternativeLabel{
+  border-radius: 0 15px 15px 0;
+}
+
+.QontoStepIcon-circle {
+  width: 25px!important;
+  height: 25px!important;
+  color: #262626a6;
+}
+
+span.MuiStepLabel-iconContainer.Mui-active.MuiStepLabel-alternativeLabel.css-vnkopk-MuiStepLabel-iconContainer .QontoStepIcon-circle{
+  color: #fff!important;
+}
+
+.css-1hv8oq8-MuiStepLabel-label.MuiStepLabel-alternativeLabel {
+  color: #484848;
+  margin-top: 10px;
+  position: absolute;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.css-n7tliy-MuiStep-root:first-child .css-1hv8oq8-MuiStepLabel-label.MuiStepLabel-alternativeLabel{
+  color: #fff
+}
+
+.css-10mg1vw-MuiStepper-root{
+  
+}
+
+.css-n7tliy-MuiStep-root{
+  padding: 0;
+}
+
+.css-vnkopk-MuiStepLabel-iconContainer.MuiStepLabel-alternativeLabel {
+  background:#e12900;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+
+}
+
+.imgPefil{
+  border-radius: 50%;
+}
+
+.title{
+  margin-bottom: 2rem;
+  position: relative;
+  font-weight: bold;
+  font-size: 40px;
+
+  &::after{
+    display: block;
+    content: '';
+    height: 3px;
+    width: 60px;
+    background-color: orange;
+  }
+}
+
+.testt{
+  display: flex;
+  gap: 2rem;
+
+  ul{
+    flex: 1;
+    list-style: none;
+    padding: 0;
+
+    li{
+      border-bottom: 1px solid gray;
+      margin: 1rem auto;
+      span{
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      h2{
+        font-size: 1.3rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+
+.cards{
+  padding: 2rem 0;
+
+  .card{
+    background: #e12900;
+    border-radius: 5px;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    height: 200px;
+    box-shadow: 0 0 15px #00000042;
+    flex-direction: column;
+    
+    svg{
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
